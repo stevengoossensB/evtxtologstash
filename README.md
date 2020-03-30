@@ -10,4 +10,4 @@ pip3 install python-evtx xmltodict python-logstash
 ```
 As a container
 --------------
-docker run
+`docker run --rm -it -v <path_to_evtx_file>:logs.evtx stevengoossens/evtxtologstash bash -c 'python EvtxToLogstash.py logs.evtx <logstash_host> <logstash_port>'`
