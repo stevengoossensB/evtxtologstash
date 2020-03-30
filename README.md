@@ -8,3 +8,6 @@ Requires Python3 to run the Python file and the below libraries
 ```python
 pip3 install python-evtx xmltodict python-logstash 
 ```
+As a container
+--------------
+docker run
