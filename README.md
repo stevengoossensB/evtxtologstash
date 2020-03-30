@@ -5,4 +5,6 @@ Installation
 ------------
 Requires Python3 to run the Python file and the below libraries
 
-``` pip3 install python-evtx xmltodict python-logstash ´´´
+```python
+pip3 install python-evtx xmltodict python-logstash 
+´´´
